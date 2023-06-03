@@ -1,0 +1,46 @@
+.contact .box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    gap: 2rem;
+    text-align: center;
+}
+.contact .box i{
+    font-size: 3.8rem;
+    color: var(--blue);
+
+}
+.contact .box div{
+    font-size: 2rem;
+    color: var(--blue);
+    margin: 1rem 0;
+}
+
+.contact .row {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 8rem 0;
+    
+}
+.contact .row .form-c input,textarea{
+    background-attachment: var(--blue);
+    border: 0.1rem solid rgba(160, 160, 160, );
+    padding: 1rem;
+    height: 4.5rem; width: 100%;
+    margin: 0.7rem 0;
+    color: blue;
+    font-size: 1.9rem;
+
+}
+.contact .row .form-c input[type="submit"]{
+    background: blue;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: white;
+    border: 0.1rem solid blue;
+}
+.contact .row .form-c textarea{
+    height: 15rem;
+    padding: 1rem;
+}
